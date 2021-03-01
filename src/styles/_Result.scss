@@ -1,0 +1,17 @@
+.testContainer {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 3px;
+}
+
+@media (min-width: 769px) {
+  .testContainer {
+    margin: 2.5rem auto;
+  }
+}
+
+.result {
+    padding: 1.5rem 2.5rem;
+  }

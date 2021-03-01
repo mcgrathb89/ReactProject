@@ -1,0 +1,43 @@
+.title{
+  padding-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 0.15rem;
+  color: #fff;
+}
+
+  #content {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }  
+
+  .frameworkLabel {
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    line-height: 150%;
+    font-size: x-large;
+    color: #333;
+}
+
+.mathsCardDiv {
+  width: 35%;
+  height: 30%;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 5px;
+  padding-bottom: 5%;
+}
+
+.justifyContent{
+  text-align: justify;
+}

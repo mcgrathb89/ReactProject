@@ -1,0 +1,34 @@
+.cardDiv {
+    width: 35%;
+    height: 30%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 5px;
+    padding-bottom: 5%;
+}
+.cardDiv:hover {
+    transition: all 0.7s ease-in-out 0s;
+    -moz-transition: all 0.7s ease-in-out 0s;
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    -o-transition: all 0.7s ease-in-out 0s;
+    transform: scale(1.1); 
+}
+
+.cardText{
+    text-align: justify;
+}
+
+.linkStyle{
+    font-weight: "bold";
+    font-size: "30px";
+}
+
+.cardSubtitle{
+    font-weight: "bold";
+    font-style: "italic"; 
+}
+
+.mainLink{
+    text-decoration: "none"; 
+    color: "black";
+}

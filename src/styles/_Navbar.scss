@@ -1,0 +1,74 @@
+.span-style {
+  font-size: 30px;
+  cursor: pointer;
+  padding-left: 5px;
+  color: white;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  &:hover {
+    color: yellow;
+    text-shadow: 0px 0px 30px yellow;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+    &:hover {
+      color: #f1f1f1;
+    }
+  }
+
+  .closebtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+
+    a {
+      font-size: 18px;
+    }
+  }
+}
+
+.navlogo{
+    width: 70%;
+    padding-right: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
